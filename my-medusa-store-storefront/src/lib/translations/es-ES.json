@@ -1,0 +1,971 @@
+{
+  "nav": {
+    "book": "Reservar",
+    "myFlights": "Mis vuelos",
+    "checkIn": "Facturación",
+    "flightStatus": "Estado del vuelo",
+    "help": "Ayuda",
+    "myTrips": "Mis viajes",
+    "account": "Cuenta",
+    "greenWingPass": "GreenWing Pass",
+    "logIn": "Iniciar sesión"
+  },
+  "home": {
+    "heroTitle": "Encuentra tu vuelo perfecto",
+    "tipsTitle": "Consejos para viajar de manera más sostenible",
+    "tip1Title": "Impacto de CO₂ y emisiones evitadas",
+    "tip1Description": "Al volar con GreenWing, estás reduciendo tu huella de carbono...",
+    "tip2Title": "Viaja más ligero, menor impacto",
+    "tip2Description": "Empacar menos reduce el uso de combustible y disminuye el impacto ambiental...",
+    "tip3Title": "Hábitos sostenibles más allá del vuelo",
+    "tip3Description": "Pequeñas elecciones antes y después de tu viaje pueden hacer que tu...",
+    "offersTitle": "Ver ofertas y promociones",
+    "trendingTitle": "Tendencias actuales",
+    "tip1Article": {
+      "intro": "Volar con GreenWing ya significa elegir un camino más sostenible, pero entender cómo funcionan las emisiones de CO₂ puede ayudarte a tomar decisiones de viaje aún más inteligentes.",
+      "para1": "La aviación representa alrededor del 2,5% de las emisiones mundiales de CO₂, pero se estima que su impacto climático global es significativamente mayor si se tienen en cuenta las estelas de condensación, los óxidos de nitrógeno y otros efectos a gran altitud. Al elegir rutas más eficientes, aeronaves más modernas y opciones de combustible sostenible, GreenWing trabaja activamente para minimizar este impacto en cada vuelo.",
+      "para2": "Cada vuelo que realizas con nosotros contribuye a nuestra inversión continua en Combustible de Aviación Sostenible (SAF) y programas de compensación de carbono. El SAF puede reducir las emisiones de CO₂ del ciclo de vida hasta en un 80% en comparación con el combustible de aviación convencional. Publicamos datos de emisiones transparentes para cada ruta, para que siempre conozcas el coste medioambiental de tu viaje.",
+      "keyTakeaways": {
+        "title": "Qué puedes hacer",
+        "point1": "Elige vuelos directos — el despegue y el aterrizaje generan las mayores emisiones",
+        "point2": "Viaja en clase turista — menos asientos implican una mayor cuota de carbono por pasajero en business",
+        "point3": "Compensa tu vuelo con nuestra calculadora de carbono integrada en la app",
+        "point4": "Consulta las emisiones de tu ruta antes de reservar en greenwing.com/sustainability"
+      }
+    },
+    "tip2Article": {
+      "intro": "El peso de tu equipaje tiene un impacto directo en el consumo de combustible del avión y, por tanto, en la cantidad de CO₂ que se libera a la atmósfera.",
+      "para1": "Cada kilogramo adicional en un vuelo aumenta el consumo de combustible. Los estudios sugieren que reducir el peso medio del equipaje en todo un avión en tan solo 1 kg puede ahorrar cientos de kilogramos de CO₂ al año. Cuando millones de pasajeros realizan pequeños cambios, el efecto acumulado es enorme. Hacer las maletas de forma inteligente no solo es práctico — es una de las formas más sencillas de reducir tu huella de viaje.",
+      "para2": "Viajar ligero también significa menos tiempo en la cinta de equipajes, sin riesgo de perder el equipaje y con menor coste. Nuestra franquicia de equipaje de mano cubre todo lo que la mayoría de los viajeros necesitan para una escapada corta por Europa. Ponte a prueba y lleva solo lo que realmente vayas a usar — puede que te sorprenda lo poco que es.",
+      "keyTakeaways": {
+        "title": "Consejos para viajar con menos equipaje",
+        "point1": "Lleva solo equipaje de mano en viajes de menos de 5 días",
+        "point2": "Lleva puesta la ropa más pesada en el avión",
+        "point3": "Elige ropa versátil y ligera que puedas combinar fácilmente",
+        "point4": "Usa artículos de higiene en formato sólido para ahorrar peso y evitar restricciones de líquidos"
+      }
+    },
+    "tip3Article": {
+      "intro": "El viaje sostenible no empieza ni termina en el aeropuerto. Las decisiones que tomas antes de salir de casa y después de llegar pueden reducir significativamente el impacto medioambiental global de tu viaje.",
+      "para1": "El trayecto hacia y desde el aeropuerto a menudo se pasa por alto en los cálculos de carbono de los viajes. Tomar un tren o autobús en lugar de un coche privado para ir al aeropuerto puede reducir las emisiones del trayecto hasta en un 90%. En tu destino, optar por el transporte público, la bicicleta o caminar en lugar de taxis o coches de alquiler marca una diferencia real — y a menudo te ofrece una experiencia más auténtica de los lugares que visitas.",
+      "para2": "La elección del alojamiento también importa. Busca hoteles con certificaciones ecológicas o considera hospedarte en casas de huéspedes de propiedad local que reinvierten en la comunidad. Hábitos sencillos como reutilizar las toallas, apagar el aire acondicionado al salir y evitar los plásticos de un solo uso marcan la diferencia. Cada decisión consciente que tomas como viajero envía una señal a la industria de que la sostenibilidad es una prioridad.",
+      "keyTakeaways": {
+        "title": "Hábitos sostenibles fáciles de adoptar",
+        "point1": "Usa el transporte público o el tren para ir al aeropuerto",
+        "point2": "Elige alojamiento ecológico certificado",
+        "point3": "Usa botellas de agua reutilizables y evita el plástico de un solo uso",
+        "point4": "Apoya a los negocios y restaurantes locales en tu destino"
+      }
+    }
+  },
+  "flights": {
+    "roundTrip": "Ida y vuelta"
+  },
+  "greenWingPass": {
+    "title": "Únete a GreenWing Pass",
+    "subtitle": "La única aerolínea que te permite viajar por Europa con cero emisiones y con una sola membresía.",
+    "description": "GreenWing Pass es una suscripción mensual que te permite volar hasta 3 veces al año dentro de Europa, en vuelos 100% libres de emisiones.",
+    "feature1Title": "Hasta 3 vuelos al año",
+    "feature1Desc": "Úsalos cuando quieras, en nuestra red europea.",
+    "feature2Title": "Cero emisiones de carbono",
+    "feature2Desc": "Cada vuelo está diseñado para minimizar su impacto ambiental.",
+    "feature3Title": "Precio mensual fijo",
+    "feature3Desc": "Pagas la misma cantidad cada mes, sin sorpresas.",
+    "feature4Title": "Todo en una aplicación",
+    "feature4Desc": "Reserva vuelos, gestiona tus viajes y sigue tu impacto positivo.",
+    "learnMore": "Saber más"
+  },
+  "help": {
+    "heroTitle": "¿Cómo podemos ayudarte?",
+    "heroSubtitle": "Busca respuestas o explora nuestro centro de ayuda",
+    "searchPlaceholder": "Buscar artículos de ayuda, preguntas frecuentes o temas...",
+    "quickLink1": "Ayuda con reservas",
+    "quickLink2": "GreenWing Pass",
+    "quickLink3": "Cambios de vuelo",
+    "quickLink4": "Reembolsos",
+    "tipsTitle": "Consejos para viajar de manera más sostenible",
+    "searchResults": "Resultados de búsqueda para",
+    "articlesCount": "Artículos",
+    "noResultsTitle": "No se encontraron resultados",
+    "noResultsDescription": "Prueba con diferentes palabras clave o explora nuestros artículos a continuación",
+    "faqTitle": "Preguntas frecuentes",
+    "featuredDestinations": "Destinos destacados",
+    "article1": {
+      "title": "¿Qué sucede después de completar un pago?",
+      "description": "Explicación paso a paso de lo que ocurre una vez que su pago es exitoso.",
+      "content": {
+        "intro": "Después de completar un pago, nuestro sistema verifica automáticamente la transacción y confirma su reserva.",
+        "para1": "Será redirigido de regreso a nuestra plataforma una vez que se procese el pago. Esto generalmente toma solo unos segundos.",
+        "para2": "Tan pronto como recibamos la confirmación del proveedor de pago, el estado de su reserva se actualizará y se le enviará un correo de confirmación."
+      },
+      "keyTakeaways": {
+        "title": "Qué esperar",
+        "point1": "Verificación automática del pago",
+        "point2": "Confirmación instantánea de la reserva",
+        "point3": "Correo de confirmación enviado de inmediato",
+        "point4": "No se requiere acción manual"
+      }
+    },
+    "article2": {
+      "title": "Pago completado pero reserva no confirmada",
+      "description": "Qué hacer si su pago se procesó pero no ve una confirmación.",
+      "content": {
+        "intro": "A veces la confirmación del pago puede tardar un poco más de lo esperado. No se preocupe, su dinero está seguro.",
+        "para1": "En casos raros, puede haber un retraso entre el proveedor de pago y nuestro sistema.",
+        "para2": "Si su reserva no se confirma en 15 minutos, recomendamos revisar su correo electrónico (incluyendo la carpeta de spam)."
+      },
+      "keyTakeaways": {
+        "title": "Acciones recomendadas",
+        "point1": "Espere hasta 15 minutos",
+        "point2": "Revise su bandeja de entrada y spam",
+        "point3": "Evite reintentar el pago de inmediato",
+        "point4": "Contacte al soporte si el problema persiste"
+      }
+    },
+    "article3": {
+      "title": "¿Por qué fue rechazado mi pago?",
+      "description": "Razones comunes por las que fallan los pagos y cómo solucionarlas.",
+      "content": {
+        "intro": "Los fallos de pago suelen estar relacionados con su banco o proveedor de tarjeta, no con nuestra plataforma.",
+        "para1": "Su banco puede bloquear una transacción por razones de seguridad, especialmente para pagos internacionales.",
+        "para2": "Fondos insuficientes, datos incorrectos de la tarjeta o tarjetas caducadas también son causas comunes."
+      },
+      "keyTakeaways": {
+        "title": "Razones más comunes",
+        "point1": "Restricciones de seguridad bancaria",
+        "point2": "Datos de tarjeta incorrectos",
+        "point3": "Tarjeta caducada o bloqueada",
+        "point4": "Saldo insuficiente"
+      }
+    },
+    "article4": {
+      "title": "Cómo funciona la membresía en nuestra plataforma",
+      "description": "Todo lo que necesita saber sobre la membresía y los tiempos de procesamiento.",
+      "content": {
+        "intro": "La elegibilidad de la membresía depende de la aerolínea, proveedor de alquiler o propiedad que haya reservado.",
+        "para1": "Si su reserva es reembolsable, procesaremos la membresía tan pronto como el proveedor lo confirme.",
+        "para2": "La membresía suele tardar de 5 a 10 días hábiles en aparecer en su cuenta, dependiendo de su banco."
+      },
+      "keyTakeaways": {
+        "title": "Conceptos básicos de membresía",
+        "point1": "La membresía sigue las políticas del proveedor",
+        "point2": "El procesamiento comienza inmediatamente después de la aprobación",
+        "point3": "Los fondos regresan al método de pago original",
+        "point4": "Los tiempos de procesamiento bancario pueden variar"
+      }
+    },
+    "article5": {
+      "title": "Cómo funcionan los pagos de membresía",
+      "description": "Explicación clara de nuestro modelo de membresía y ciclo de facturación.",
+      "content": {
+        "intro": "Nuestra membresía está diseñada para viajeros frecuentes que desean precios predecibles y flexibilidad.",
+        "para1": "Con una membresía activa, obtiene acceso a tres vuelos gratuitos cubiertos por su tarifa mensual.",
+        "para2": "La membresía se renueva automáticamente cada mes y no se puede cancelar antes de un año."
+      },
+      "keyTakeaways": {
+        "title": "Aspectos esenciales de la membresía",
+        "point1": "Pago mensual fijo",
+        "point2": "Incluye 3 vuelos",
+        "point3": "Se aplica solo a vuelos",
+        "point4": "Compromiso mínimo: 1 año"
+      }
+    },
+    "article6": {
+      "title": "¿Puedo cancelar mi membresía?",
+      "description": "Información importante sobre las reglas de cancelación de membresía.",
+      "content": {
+        "intro": "Creemos en la transparencia, por lo que es importante comprender los compromisos de membresía por adelantado.",
+        "para1": "La membresía no se puede cancelar durante el primer año de activación.",
+        "para2": "Después del período de un año, puede cancelar en cualquier momento desde la configuración de su cuenta."
+      },
+      "keyTakeaways": {
+        "title": "Reglas de cancelación",
+        "point1": "Sin cancelación en el primer año",
+        "point2": "Cancele en cualquier momento después de 12 meses",
+        "point3": "Sin tarifas ocultas",
+        "point4": "Términos claros antes de la activación"
+      }
+    },
+    "article7": {
+      "title": "¿Qué pasa si la aerolínea cancela mi vuelo?",
+      "description": "Sus opciones cuando las aerolíneas cancelan o cambian vuelos.",
+      "content": {
+        "intro": "Las cancelaciones de aerolíneas ocurren, y estamos aquí para ayudarle a navegar los próximos pasos.",
+        "para1": "En la mayoría de los casos, las aerolíneas ofrecen una opción de reembolso o reprogramación.",
+        "para2": "Le notificaremos tan pronto como recibamos una actualización de la aerolínea."
+      },
+      "keyTakeaways": {
+        "title": "Si su vuelo es cancelado",
+        "point1": "Notificación por correo electrónico",
+        "point2": "Opciones de reembolso o reprogramación",
+        "point3": "Se aplican las políticas de la aerolínea",
+        "point4": "Equipo de soporte disponible"
+      }
+    },
+    "article8": {
+      "title": "Cómo cambiar o corregir los datos del pasajero",
+      "description": "Aprenda cómo funcionan los cambios y correcciones de nombre.",
+      "content": {
+        "intro": "Los datos del pasajero deben coincidir exactamente con los documentos de viaje oficiales.",
+        "para1": "Se pueden permitir correcciones menores dependiendo de las reglas de la aerolínea.",
+        "para2": "Algunas aerolíneas cobran una tarifa por cambios de nombre o no los permiten en absoluto."
+      },
+      "keyTakeaways": {
+        "title": "Datos del pasajero",
+        "point1": "Debe coincidir con ID o pasaporte",
+        "point2": "Los cambios dependen de la aerolínea",
+        "point3": "Pueden aplicarse tarifas",
+        "point4": "Contacte al soporte con anticipación"
+      }
+    },
+    "article9": {
+      "title": "¿Es segura mi información de pago?",
+      "description": "Cómo protegemos sus datos y transacciones.",
+      "content": {
+        "intro": "La seguridad es una prioridad para nosotros.",
+        "para1": "Todos los pagos se procesan a través de proveedores de pago certificados.",
+        "para2": "Nunca almacenamos los datos completos de su tarjeta en nuestros servidores."
+      },
+      "keyTakeaways": {
+        "title": "Medidas de seguridad",
+        "point1": "Transacciones encriptadas",
+        "point2": "Proveedores de pago confiables",
+        "point3": "Sin almacenamiento de datos de tarjeta",
+        "point4": "Monitoreo continuo"
+      }
+    },
+    "article10": {
+      "title": "Reservar vuelos vs apartamentos y autos",
+      "description": "Comprender las diferencias entre los tipos de reserva.",
+      "content": {
+        "intro": "Cada tipo de reserva sigue reglas y políticas ligeramente diferentes.",
+        "para1": "Las reservas de vuelos se rigen por las políticas de las aerolíneas.",
+        "para2": "Los apartamentos y alquileres de autos siguen términos específicos del socio."
+      },
+      "keyTakeaways": {
+        "title": "Diferencias de reserva",
+        "point1": "Vuelos: reglas de aerolíneas",
+        "point2": "Autos: términos del proveedor de alquiler",
+        "point3": "Apartamentos: políticas del anfitrión",
+        "point4": "Detalles mostrados antes del pago"
+      }
+    },
+    "article11": {
+      "title": "¿No recibió su correo de confirmación?",
+      "description": "Qué hacer si falta su correo de confirmación.",
+      "content": {
+        "intro": "Los correos de confirmación se envían automáticamente después de la reserva.",
+        "para1": "La entrega de correo a veces puede retrasarse por los proveedores.",
+        "para2": "Siempre revise su carpeta de spam o promociones."
+      },
+      "keyTakeaways": {
+        "title": "Consejos de correo electrónico",
+        "point1": "Revise la carpeta de spam",
+        "point2": "Verifique la dirección de correo electrónico",
+        "point3": "Espere unos minutos",
+        "point4": "Contacte al soporte si es necesario"
+      }
+    },
+    "article12": {
+      "title": "Cómo contactar al soporte",
+      "description": "Cuándo y cómo comunicarse con nuestro equipo de soporte.",
+      "content": {
+        "intro": "Nuestro equipo de soporte está aquí para ayudarle cuando lo necesite.",
+        "para1": "Recomendamos revisar primero el Centro de Ayuda para respuestas instantáneas.",
+        "para2": "Si aún necesita asistencia, contáctenos a través de su cuenta."
+      },
+      "keyTakeaways": {
+        "title": "Opciones de soporte",
+        "point1": "Centro de Ayuda disponible 24/7",
+        "point2": "Soporte rápido en la plataforma",
+        "point3": "Asistencia específica para reservas",
+        "point4": "Ayuda humana amigable"
+      }
+    },
+    "faq": {
+      "category1": {
+        "title": "Reserva y pago",
+        "q1": "¿Qué métodos de pago aceptan?",
+        "a1": "Aceptamos todas las principales tarjetas de crédito (Visa, Mastercard, American Express), tarjetas de débito, PayPal y Apple Pay.",
+        "q2": "¿Puedo cambiar mi reserva?",
+        "a2": "Sí, puede cambiar su reserva hasta 24 horas antes de la salida. Los cambios pueden estar sujetos a diferencias de tarifa y una tarifa de cambio."
+      },
+      "category2": {
+        "title": "GreenWing Pass",
+        "q1": "¿Qué es GreenWing Pass?",
+        "a1": "GreenWing Pass es una suscripción mensual que le permite volar hasta 3 veces al año dentro de Europa en vuelos 100% libres de emisiones.",
+        "q2": "¿Cuánto cuesta?",
+        "a2": "GreenWing Pass cuesta £29.99 por mes sin compromiso a largo plazo.",
+        "q3": "¿Puedo cancelar en cualquier momento?",
+        "a3": "Sí, puede cancelar su suscripción en cualquier momento sin cargos por cancelación."
+      },
+      "category3": {
+        "title": "Vuelos y viajes",
+        "q1": "¿Cuáles son sus límites de equipaje?",
+        "a1": "Clase económica: 1 bolso de mano (10 kg) y 1 maleta facturada (23 kg). Clase ejecutiva: 2 bolsos de mano (20 kg) y 2 maletas facturadas (32 kg cada una).",
+        "q2": "¿Con cuánta anticipación debo llegar al aeropuerto?",
+        "a2": "Recomendamos llegar 2 horas antes de la salida para vuelos nacionales y 3 horas para vuelos internacionales."
+      },
+      "category4": {
+        "title": "Sostenibilidad",
+        "q1": "¿Cómo pueden sus vuelos ser libres de emisiones?",
+        "a1": "Utilizamos combustible de aviación sostenible (SAF), invertimos en programas de compensación de carbono y actualizamos continuamente a aviones más eficientes.",
+        "q2": "¿Cuál es su política ambiental?",
+        "a2": "Nuestra política ambiental se enfoca en lograr cero emisiones netas para 2030 a través de la innovación, combustibles sostenibles y compensación de carbono."
+      }
+    }
+  },
+  "flightSearch": {
+    "selectOutbound": "Seleccionar vuelo de ida",
+    "tabs": {
+      "flights": "Vuelos",
+      "car": "Alquilar un coche",
+      "hotel": "Reservar un hotel"
+    },
+    "tripTypes": {
+      "roundTrip": "Ida y vuelta",
+      "oneWay": "Solo ida",
+      "multiCity": "Múltiples ciudades"
+    },
+    "placeholders": {
+      "from": "Desde",
+      "to": "Hasta",
+      "selectDates": "Seleccionar fechas"
+    },
+    "labels": {
+      "adult": "Adulto",
+      "children": "Niños",
+      "economy": "Económica",
+      "business": "Ejecutiva"
+    },
+    "buttons": {
+      "search": "Buscar vuelos"
+    },
+    "alerts": {
+      "selectAirports": "Por favor, seleccione los aeropuertos de salida y llegada",
+      "selectDate": "Por favor, seleccione una fecha de salida"
+    },
+    "comingSoon": {
+      "car": "¡Alquiler de coches próximamente!",
+      "hotel": "¡Reserva de hoteles próximamente!"
+    },
+    "weekDays": [
+      "Lu",
+      "Ma",
+      "Mi",
+      "Ju",
+      "Vi",
+      "Sá",
+      "Do"
+    ],
+    "months": {
+      "january": "Enero",
+      "february": "Febrero",
+      "march": "Marzo",
+      "april": "Abril",
+      "may": "Mayo",
+      "june": "Junio",
+      "july": "Julio",
+      "august": "Agosto",
+      "september": "Septiembre",
+      "october": "Octubre",
+      "november": "Noviembre",
+      "december": "Diciembre"
+    },
+    "search": {
+      "selectOutbound": "Seleccionar ida",
+      "selectReturn": "Seleccionar vuelta",
+      "outboundSelected": "✓ Ida seleccionada",
+      "loading": {
+        "title": "Buscando vuelos...",
+        "subtitle": "Encontrando las mejores rutas para usted"
+      },
+      "error": {
+        "title": "¡Vaya! Algo salió mal",
+        "tryAgain": "Intentar de nuevo"
+      },
+      "backToSearch": "Volver a la búsqueda",
+      "flightsFound": "vuelos encontrados",
+      "noFlights": {
+        "title": "No se encontraron vuelos",
+        "subtitle": "No encontramos ningún vuelo para",
+        "on": "el",
+        "suggestionsTitle": "Pruebe estas opciones:",
+        "checkDates": "Revisar otras fechas",
+        "checkDatesDesc": "Puede haber vuelos disponibles en fechas cercanas",
+        "tryAirports": "Probar aeropuertos cercanos",
+        "tryAirportsDesc": "Los aeropuertos alternativos pueden tener vuelos disponibles",
+        "checkReturn": "Revisar vuelos de regreso",
+        "checkReturnDesc": "Es posible que la ruta funcione en dirección inversa",
+        "popularRoutes": "Destinos populares desde",
+        "viewFlights": "Ver vuelos",
+        "searchNew": "Buscar nuevos vuelos"
+      }
+    }
+  },
+  "flightCard": {
+    "direct": "Directo",
+    "stop": "1 escala",
+    "details": "Detalles",
+    "selectDepart": "Seleccionar salida",
+    "economy": "Económica",
+    "business": "Negocios",
+    "member": "Miembro",
+    "free": "Gratis",
+    "selectFlight": "Seleccionar vuelo",
+    "flightDetails": "Detalles del vuelo",
+    "departure": "Salida",
+    "arrival": "Llegada",
+    "flight": "Vuelo",
+    "operator": "Operador",
+    "duration": "Duración",
+    "flightInformation": "Información del vuelo",
+    "directFlight": "Vuelo directo",
+    "aircraft": "Aeronave",
+    "co2Emissions": "Emisiones de CO₂",
+    "selectClass": "Elige tu clase",
+    "seatsAvailable": "Asientos disponibles: {{count}}",
+    "snackRefreshments": "Aperitivos y bebidas",
+    "standardSeat": "Asiento estándar",
+    "carryOn": "1 equipaje de mano",
+    "premiumMeal": "Comida premium",
+    "extraLegroom": "Espacio extra para las piernas",
+    "priorityBoarding": "Embarque prioritario",
+    "checkedBags": "2 maletas facturadas",
+    "greenWingPassMember": "Miembro de GreenWing Pass",
+    "useAnnualFlight": "Usa uno de tus 3 vuelos anuales",
+    "baseFare": "Tarifa base",
+    "taxesFees": "Impuestos y tasas",
+    "total": "Total",
+    "continueBooking": "Continuar reserva",
+    "priceIncludes": "El precio incluye todos los impuestos y tasas"
+  },
+  "account": {
+    "nav": {
+      "account": "Cuenta",
+      "hello": "Hola",
+      "overview": "Resumen",
+      "profile": "Perfil",
+      "addresses": "Direcciones",
+      "orders": "Pedidos",
+      "logout": "Cerrar sesión"
+    },
+    "layout": {
+      "questionsTitle": "¿Tienes preguntas?",
+      "questionsText": "Puedes encontrar respuestas a las preguntas frecuentes en la página de atención al cliente.",
+      "customerService": "Servicio al cliente"
+    },
+    "info": {
+      "edit": "Editar",
+      "cancel": "Cancelar",
+      "saveChanges": "Guardar cambios",
+      "updatedSuccess": "actualizado con éxito",
+      "errorMessage": "Se produjo un error, inténtalo de nuevo"
+    },
+    "orders": {
+      "emptyTitle": "¿Aún no has viajado con nosotros?",
+      "emptyText": "Todavía no tienes vuelos reservados. ¡Es hora de planificar tu próximo viaje inolvidable!",
+      "findFlights": "Buscar vuelos",
+      "popularDestinations": "Destinos populares",
+      "perk1Title": "Más de 100 destinos",
+      "perk1Desc": "Europa y el mundo",
+      "perk2Title": "Equipaje de mano incluido",
+      "perk2Desc": "10 kg contigo en cabina",
+      "perk3Title": "Pago flexible",
+      "perk3Desc": "En cuotas o al instante",
+      "haveBooking": "¿Ya tienes una reserva?",
+      "findBooking": "Encontrar mi reserva",
+      "item": "pasajero",
+      "items": "pasajeros",
+      "more": "más",
+      "seeDetails": "Detalles",
+      "description": "Consulta tus pedidos anteriores y su estado. También puedes crear devoluciones o cambios si es necesario."
+    },
+    "overview": {
+      "welcome": "Bienvenido",
+      "registeredAs": "Registrado como:",
+      "profile": "Perfil",
+      "completed": "completado",
+      "addresses": "Direcciones",
+      "saved": "guardado",
+      "recentFlights": "Vuelos recientes",
+      "allFlights": "Todos los vuelos",
+      "flight": "Vuelo",
+      "passenger": "pasajero",
+      "passengers": "pasajeros",
+      "noFlights": "Todavía no tienes vuelos reservados",
+      "bookFlight": "Reservar un vuelo"
+    },
+    "passInactive": {
+      "subtitle": "Viaja más, gasta menos",
+      "heroTitle": "Suscripción exclusiva",
+      "heroSubtitle": "Para viajeros de verdad",
+      "month": "mes",
+      "year": "año",
+      "save": "Ahorra £60",
+      "monthly": "Mensual",
+      "yearly": "Anual",
+      "whatsIncluded": "¿Qué incluye la suscripción?",
+      "b1Title": "3 vuelos gratuitos",
+      "b1Desc": "Al año a cualquier destino",
+      "b2Title": "Embarque prioritario",
+      "b2Desc": "Sé el primero en abordar",
+      "b3Title": "Acceso a salas VIP",
+      "b3Desc": "En más de 200 aeropuertos del mundo",
+      "b4Title": "Equipaje adicional",
+      "b4Desc": "+20 kg gratis",
+      "b5Title": "Descuentos exclusivos",
+      "b5Desc": "Hasta un 30% en hoteles y coches",
+      "b6Title": "Soporte 24/7",
+      "b6Desc": "Gestor personal",
+      "ctaTitle": "¿Listos para viajes increíbles?",
+      "ctaSubtitle": "Únete a miles de viajeros satisfechos",
+      "subscribe": "Suscribirse",
+      "faqTitle": "Preguntas frecuentes",
+      "faq1q": "¿Cuándo recibiré los vuelos gratuitos?",
+      "faq1a": "Inmediatamente después de activar la suscripción recibirás 3 vuelos gratuitos al año.",
+      "faq2q": "¿Puedo cancelar la suscripción?",
+      "faq2a": "Sí, puedes cancelar en cualquier momento. La suscripción permanecerá activa hasta el final del período pagado.",
+      "faq3q": "¿A qué destinos aplican los vuelos gratuitos?",
+      "faq3a": "A todos los destinos de GreenWing — sin restricciones de fechas ni rutas."
+    },
+    "profile": {
+      "title": "Perfil",
+      "description": "Ve y actualiza tu información de perfil, incluyendo tu nombre, correo electrónico y número de teléfono. También puedes actualizar tu dirección de facturación o cambiar tu contraseña.",
+      "name": "Nombre",
+      "firstName": "Nombre",
+      "lastName": "Apellido",
+      "email": "Correo electrónico",
+      "phone": "Teléfono",
+      "billingAddress": "Dirección de facturación",
+      "noBillingAddress": "Sin dirección de facturación",
+      "company": "Empresa",
+      "address": "Dirección",
+      "apartment": "Apartamento, suite, etc.",
+      "postalCode": "Código postal",
+      "city": "Ciudad",
+      "province": "Provincia"
+    },
+    "pass": {
+      "activeSubtitle": "Tu suscripción está activa",
+      "active": "Activa",
+      "flightsAvailable": "Vuelos disponibles",
+      "ofThisYear": "de {{total}} este año",
+      "nextPayment": "Próximo pago",
+      "changePayment": "Cambiar método de pago",
+      "memberSince": "Miembro desde",
+      "monthlyPlan": "Suscripción mensual",
+      "switchYearly": "Cambiar al plan anual",
+      "flightHistory": "Historial de vuelos utilizados",
+      "exampleRoute": "Londres → París",
+      "exampleDate": "18 de febrero de 2026",
+      "used": "Utilizado",
+      "saved": "Ahorrado £89",
+      "noFlightsUsed": "Aún no has utilizado ningún vuelo",
+      "bookFirst": "Reservar el primer vuelo",
+      "yourPerks": "Tus ventajas",
+      "perk1Title": "Embarque prioritario",
+      "perk1Desc": "En todos los vuelos de GreenWing",
+      "perk2Title": "Salas VIP",
+      "perk2Desc": "Acceso en 200+ aeropuertos",
+      "perk3Title": "Equipaje adicional",
+      "perk3Desc": "+20 kg gratis",
+      "perk4Title": "Soporte VIP",
+      "perk4Desc": "24/7, los siete días de la semana",
+      "manageSubscription": "Gestionar suscripción",
+      "updatePayment": "Actualizar método de pago",
+      "switchYearlyPlan": "Cambiar al plan anual",
+      "paymentHistory": "Historial de pagos",
+      "cancelSubscription": "Cancelar suscripción"
+    }
+  },
+  "checkIn": {
+    "badge": "Check-in online",
+    "heroTitle": "Evita las colas.",
+    "heroTitle2": "Faz el check-in online.",
+    "heroSub": "Disponible desde 48 horas hasta 1 hora antes de la salida",
+    "step1": "Buscar reserva",
+    "step2": "Elegir asiento",
+    "step3": "Tarjeta de embarque",
+    "bookingRef": "Referencia de reserva",
+    "lastName": "Apellido",
+    "lastNamePlaceholder": "Como en tu pasaporte",
+    "hint": "El check-in abre 48 horas y cierra 1 hora antes de la salida",
+    "searchBtn": "Buscar mi reserva →",
+    "loggedInHint": "Conectado como",
+    "viewBookings": "ver tus reservas",
+    "timelineTitle": "Cronograma de check-in",
+    "tl1time": "48h antes",
+    "tl1label": "Abre el check-in online",
+    "tl1sub": "Elige tu asiento y faz el check-in desde cualquier lugar",
+    "tl2time": "3h antes",
+    "tl2label": "Abre el check-in en el aeropuerto",
+    "tl2sub": "Los mostradores abren en la terminal de salida",
+    "tl3time": "1h antes",
+    "tl3label": "Cierra el check-in",
+    "tl3sub": "Todos los métodos de check-in se cierran",
+    "tl4time": "45min antes",
+    "tl4label": "Cierra la puerta de embarque",
+    "tl4sub": "Embarca antes de que se cierre la puerta",
+    "needTitle": "Qué necesitas para hacer el check-in",
+    "need1": "Referencia de reserva",
+    "need1desc": "Tu código GW- del correo de confirmación",
+    "need2": "Pasaporte o DNI",
+    "need2desc": "Documento válido que coincida con el nombre de la reserva",
+    "need3": "Visado (si es necesario)",
+    "need3desc": "Consulta los requisitos de visado para tu destino",
+    "baggageTitle": "Franquicia de equipaje",
+    "bagItem": "Tipo",
+    "bagEconomy": "Turista",
+    "bagBusiness": "Business",
+    "bagCarry": "Equipaje de mano",
+    "bagChecked": "Equipaje facturado",
+    "faqTitle": "Preguntas frecuentes",
+    "faq1": "¿Puedo cambiar mi asiento después del check-in?",
+    "faq2": "¿Qué pasa si pierdo la ventana de check-in?",
+    "faq3": "¿Cómo obtengo mi tarjeta de embarque?",
+    "faq4": "¿Puedo hacer el check-in por otra persona?",
+    "selectSeat": "Seleccionar asiento",
+    "back": "Volver",
+    "confirmSeat": "Confirmar asiento",
+    "selectSeatBtn": "Seleccione un asiento para continuar",
+    "confirming": "Confirmando...",
+    "checkedIn": "¡Facturación completada!",
+    "boardingPassReady": "Su tarjeta de embarque está lista",
+    "passenger": "Pasajero",
+    "date": "Fecha",
+    "seat": "Asiento",
+    "class": "Clase",
+    "ref": "Referencia de reserva",
+    "status": "Estado",
+    "print": "Imprimir tarjeta de embarque",
+    "notFound": "Reserva no encontrada. Compruebe su referencia y apellido.",
+    "serverError": "Algo salió mal. Por favor, inténtelo de nuevo.",
+    "seatTaken": "Este asiento acaba de ser ocupado. Por favor, elija otro.",
+    "tooEarly": "La facturación aún no está abierta. Vuelva más cerca de la salida.",
+    "tooLate": "La facturación para este vuelo está cerrada."
+  },
+  "myFlights": {
+    "title": "Mis vuelos",
+    "back": "Volver",
+    "totalBookings": "Reservas totales",
+    "loading": "Cargando vuelos...",
+    "tryAgain": "Intentar de nuevo",
+    "newBooking": "¡Nueva reserva confirmada!",
+    "searchFlights": "Buscar vuelos",
+    "bookAnother": "Reservar otro vuelo",
+    "direct": "Vuelo directo",
+    "stop": "1 escala",
+    "economy": "Económica",
+    "business": "Business",
+    "free": "Gratis",
+    "paid": "De pago",
+    "tabs": {
+      "upcoming": "Próximos",
+      "past": "Pasados",
+      "all": "Todos"
+    },
+    "status": {
+      "confirmed": "Confirmado",
+      "pending": "Pendiente",
+      "cancelled": "Cancelado"
+    },
+    "empty": {
+      "upcoming": "No hay vuelos próximos",
+      "past": "No hay vuelos pasados",
+      "all": "Aún no hay vuelos",
+      "cta": "Reserve su próxima aventura con GreenWing",
+      "pastDesc": "Sus vuelos completados aparecerán aquí"
+    }
+  },
+  "flightStatus": {
+    "badge": "Estado del vuelo",
+    "heroTitle": "Rastrea tu vuelo",
+    "heroSub": "Actualizaciones en tiempo real para todos los vuelos de GreenWing",
+    "liveBoard": {
+      "title": "Panel en vivo de salidas y llegadas",
+      "subtitle": "Todos los vuelos de GreenWing · actualización cada 30 segundos",
+      "live": "En vivo",
+      "departures": "Salidas",
+      "arrivals": "Llegadas",
+      "airport": "Aeropuerto",
+      "date": "Fecha",
+      "refresh": "Actualizar",
+      "time": "Hora",
+      "destination": "Destino",
+      "origin": "Origen",
+      "flight": "Vuelo",
+      "aircraft": "Aeronave",
+      "gate": "Puerta",
+      "delay": "Retraso",
+      "status": "Estado",
+      "onTime": "A tiempo",
+      "noFlights": "Sin vuelos",
+      "noFlightsSub": "Prueba con otro aeropuerto o fecha",
+      "lastUpdated": "Última actualización"
+    },
+    "search": {
+      "title": "Buscar un vuelo específico",
+      "subtitle": "Busca por número de vuelo, número de reserva o ruta",
+      "byNumber": "Por número de vuelo",
+      "byRoute": "Por ruta",
+      "flightNumberLabel": "Número de vuelo o reserva",
+      "flightNumberPlaceholder": "ej. GW100 o GW-DKR5K",
+      "from": "Origen",
+      "to": "Destino",
+      "dateLabel": "Fecha",
+      "trackBtn": "Rastrear vuelo →",
+      "searching": "Buscando...",
+      "noFlights": "No se encontraron vuelos",
+      "noFlightsSub": "Verifica el número de vuelo o la ruta e inténtalo de nuevo",
+      "flightsFound": "vuelo encontrado",
+      "enterFlight": "Introduce el número de vuelo",
+      "enterAirports": "Introduce los aeropuertos"
+    },
+    "flightCard": {
+      "date": "Fecha",
+      "duration": "Duración",
+      "terminal": "Terminal",
+      "gate": "Puerta",
+      "delayedBy": "Retrasado",
+      "min": "min",
+      "hours": "h",
+      "newDeparture": "Nueva hora de salida",
+      "departsIn": "Sale en",
+      "cancelled": "Este vuelo ha sido cancelado. Contacta con el soporte de GreenWing.",
+      "complete": "completado"
+    },
+    "status": {
+      "scheduled": "Programado",
+      "delayed": "Retrasado",
+      "in_air": "En vuelo",
+      "landed": "Aterrizado",
+      "cancelled": "Cancelado"
+    },
+    "notify": {
+      "title": "Recibir notificaciones",
+      "subtitle": "Te enviaremos un email si el vuelo se retrasa o cancela",
+      "alertTitle": "Alertas en tiempo real",
+      "alertDesc": "Recibe notificaciones instantáneas sobre cambios en el estado del vuelo: retrasos, cancelaciones, cambios de puerta",
+      "flightNumber": "Número de vuelo",
+      "flightNumberPlaceholder": "ej. GW100",
+      "flightDate": "Fecha del vuelo",
+      "email": "Correo electrónico",
+      "emailFromAccount": "· de tu cuenta",
+      "hint": "Recibirás un email cuando cambie el estado del vuelo (retraso, cancelación, aterrizaje)",
+      "submitBtn": "Notificarme sobre este vuelo",
+      "subscribing": "Suscribiendo...",
+      "successTitle": "¡Te has suscrito!",
+      "successDesc": "Enviaremos actualizaciones a",
+      "successFlight": "para el vuelo",
+      "trackAnother": "Rastrear otro vuelo →",
+      "notFound": "Vuelo no encontrado en esta fecha",
+      "error": "Algo salió mal. Inténtalo de nuevo."
+    }
+  },
+  "hotelSearch": {
+    "placeholders": {
+      "destination": "¿A dónde vas?",
+      "checkin": "Llegada",
+      "checkout": "Salida"
+    },
+    "selectCheckin": "Selecciona la fecha de llegada",
+    "selectCheckout": "Selecciona la fecha de salida",
+    "night": "noche",
+    "nights": "noches",
+    "room": "habitación",
+    "rooms": "habitaciones",
+    "done": "Listo",
+    "buttons": {
+      "search": "Buscar hoteles"
+    },
+    "alerts": {
+      "selectCity": "Por favor, selecciona un destino",
+      "selectDates": "Por favor, selecciona las fechas de llegada y salida"
+    },
+    "results": {
+      "title": "Hoteles en",
+      "found": "establecimientos encontrados",
+      "perNight": "por noche",
+      "total": "total",
+      "reviews": "opiniones",
+      "bookNow": "Reservar",
+      "freeCancel": "Cancelación gratuita",
+      "breakfast": "Desayuno incluido",
+      "noResults": "No se encontraron hoteles",
+      "noPrepayment": "Sin prepago requerido",
+      "onlyLeft": "Solo quedan",
+      "leftRooms": "habitaciones",
+      "loading": "Buscando hoteles...",
+      "noResultsDesc": "Prueba con otra ciudad o fechas diferentes",
+      "searchNew": "Nueva búsqueda"
+    },
+    "fromCentre": "del centro",
+    "km": "km",
+    "m": "m",
+    "ratingLabels": {
+      "superb": "Sublime",
+      "excellent": "Excelente",
+      "veryGood": "Muy bien",
+      "good": "Bien"
+    },
+    "roomTypes": {
+      "deluxeKing": "Deluxe King",
+      "roomyDouble": "Doble espaciosa",
+      "standardQueen": "Estándar Queen",
+      "oneBedApartment": "Apartamento de 1 dormitorio",
+      "twoBedApartment": "Apartamento de 2 dormitorios",
+      "standardDouble": "Doble estándar",
+      "classicRoom": "Habitación clásica",
+      "superiorDouble": "Doble superior",
+      "studioApartment": "Estudio",
+      "deluxeRoom": "Habitación deluxe",
+      "privateDouble": "Doble privada",
+      "deluxeSuite": "Suite deluxe",
+      "seaView": "Habitación con vistas al mar",
+      "gardenRoom": "Habitación con jardín",
+      "superiorRoom": "Habitación superior",
+      "standardRoom": "Habitación estándar",
+      "doubleWithBreakfast": "Doble con desayuno",
+      "oneBedSuite": "Suite de 1 dormitorio"
+    },
+    "filters": {
+      "title": "Filtros",
+      "price": "Precio por noche",
+      "stars": "Estrellas",
+      "type": "Tipo de alojamiento",
+      "hotel": "Hotel",
+      "apartment": "Apartamento",
+      "hostel": "Hostal",
+      "all": "Todos",
+      "villa": "Villa"
+    },
+    "sort": {
+      "label": "Ordenar por",
+      "price": "Precio: de menor a mayor",
+      "rating": "Valoración",
+      "recommended": "Recomendados"
+    },
+    "booking": {
+      "title": "Completa tu reserva",
+      "summary": "Resumen de la reserva",
+      "checkin": "Llegada",
+      "checkout": "Salida",
+      "guests": "Huéspedes",
+      "rooms": "Habitaciones",
+      "pricePerNight": "Precio por noche",
+      "nights": "noches",
+      "total": "Total",
+      "taxes": "Impuestos y tasas incluidos",
+      "guestDetails": "Datos del huésped",
+      "firstName": "Nombre",
+      "lastName": "Apellido",
+      "email": "Correo electrónico",
+      "phone": "Teléfono",
+      "confirm": "Confirmar reserva",
+      "processing": "Procesando...",
+      "success": "¡Reserva confirmada!",
+      "successDesc": "La confirmación ha sido enviada a tu correo electrónico"
+    }
+  },
+  "deals": {
+    "specialOffers": "Ofertas especiales",
+    "flightsTo": "Vuelos a",
+    "noDeals": "No hay ofertas disponibles ahora mismo. ¡Vuelva pronto!",
+    "seatsLeft": "Solo quedan",
+    "seatsLeftEnd": "plazas disponibles",
+    "perPerson": "por persona",
+    "bookNow": "Reservar ahora"
+  },
+  "bookTrip": {
+    "outbound": {
+      "label": "Vuelo de ida",
+      "selected": "Vuelo de ida seleccionado",
+      "noFlights": "No hay vuelos disponibles para esta fecha."
+    },
+    "passengers": "pasajeros",
+    "passenger": "pasajero",
+    "total": "total",
+    "selected": "Seleccionado",
+    "namesAtPayment": "Nombres introducidos en el paso de pago",
+    "pricesShown": "Precios mostrados por persona",
+    "notEnoughSeats": "No hay suficientes asientos para los pasajeros seleccionados",
+    "payment": {
+      "title": "Resumen del viaje",
+      "total": "Total",
+      "payNow": "Pagar ahora",
+      "noHotel": "Sin hotel añadido",
+      "secure": "Pago seguro cifrado con SSL de 256 bits"
+    },
+    "car": {
+      "label": "Alquiler de coche",
+      "title": "Alquila un coche en",
+      "comingSoon": "¡Alquiler de coches próximamente!",
+      "comingSoonDesc": "Estamos trabajando en ello...",
+      "comingSoonFeatures": "Lo que viene",
+      "feature1": "Seguro completo incluido",
+      "feature2": "Recogida en el aeropuerto",
+      "feature3": "Garantía de mejor precio",
+      "skip": "Omitir y continuar al pago →",
+      "skipNote": "Siempre puedes añadir un coche más tarde"
+    },
+    "return": {
+      "label": "Vuelo de regreso",
+      "noFlights": "No hay vuelos de regreso disponibles para esta fecha.",
+      "selected": "Vuelo de regreso seleccionado"
+    },
+    "hotel": {
+      "label": "Elige tu hotel",
+      "title": "Hoteles en",
+      "skip": "Omitir hotel →",
+      "addAndContinue": "Añadir hotel →",
+      "selectToAdd": "Selecciona un hotel"
+    },
+    "perPerson": "por persona",
+    "seatsLeft": "asientos disponibles",
+    "selectFlight": "Selecciona un vuelo para continuar",
+    "continueToReturn": "Continuar al vuelo de regreso →",
+    "continueToHotel": "Continuar al hotel →"
+  },
+  "myTrips": {
+    "title": "Mis viajes",
+    "back": "Volver",
+    "totalTrips": "viajes en total",
+    "loading": "Cargando tus viajes...",
+    "tryAgain": "Intentar de nuevo",
+    "browseDeals": "Ver más ofertas",
+    "redirecting": "Redirigiendo al inicio de sesión...",
+    "outbound": "Ida",
+    "return": "Vuelta",
+    "passenger": "pasajero",
+    "passengers": "pasajeros",
+    "totalPaid": "total pagado",
+    "tripId": "ID de viaje",
+    "checkIn": "Facturar →",
+    "checkedIn": "Facturado",
+    "free": "Gratis (Pase)",
+    "bookingRef": "Referencia de reserva",
+    "checkInTitle": "Facturación online",
+    "checkInClose": "Cerrar",
+    "checkInGo": "Ir →",
+    "checkInNotFound": "No encontrado",
+    "checkInOpensIn": "La facturación abre en",
+    "checkInClosed": "La facturación está cerrada",
+    "checkInError": "Algo salió mal",
+    "tabs": {
+      "upcoming": "Próximos",
+      "past": "Pasados",
+      "all": "Todos"
+    },
+    "status": {
+      "confirmed": "Confirmado",
+      "cancelled": "Cancelado"
+    },
+    "empty": {
+      "upcoming": "No hay viajes próximos",
+      "past": "No hay viajes pasados",
+      "all": "Aún no hay viajes",
+      "cta": "Reserva una oferta para ver tus viajes aquí"
+    }
+  }
+}
