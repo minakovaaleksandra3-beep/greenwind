@@ -1,16 +1,6 @@
 import { NextRequest, NextResponse } from "next/server"
-import { Pool } from "pg"
+import { pool } from "@lib/db"
 import { Resend } from "resend"
-
-
-const pool = new Pool({
-  host: "localhost",
-  port: 5432,
-  database: "medusa-my-medusa-store",
-  user: "postgres",
-  password: "12345678",
-})
-
 
 const resend = new Resend(process.env.RESEND_API_KEY)
 

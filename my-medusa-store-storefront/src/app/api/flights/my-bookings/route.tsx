@@ -1,16 +1,7 @@
 import { NextRequest, NextResponse } from "next/server"
-import { Pool } from "pg"
+import { pool } from "@lib/db"
 import { cookies } from "next/headers"
 import { jwtDecode } from "jwt-decode"
-
-
-const pool = new Pool({
-  host: 'localhost',
-  port: 5432,
-  database: 'medusa-my-medusa-store',
-  user: 'postgres',
-  password: '12345678',
-})
 
 
 export async function GET(request: NextRequest) {

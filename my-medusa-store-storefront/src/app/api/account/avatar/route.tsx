@@ -1,18 +1,10 @@
 import { NextRequest, NextResponse } from "next/server"
-import { Pool } from "pg"
+import { pool } from "@lib/db"
 import { writeFile, mkdir } from "fs/promises"
 import { join } from "path"
 import { cookies } from "next/headers"
 import { jwtDecode } from "jwt-decode"
 
-
-const pool = new Pool({
-  host: "localhost",
-  port: 5432,
-  database: "medusa-my-medusa-store",
-  user: "postgres",
-  password: "12345678",
-})
 
 
 async function getEmailFromRequest(request: NextRequest): Promise<string | null> {

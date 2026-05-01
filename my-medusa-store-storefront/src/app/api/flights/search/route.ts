@@ -1,13 +1,5 @@
 import { NextRequest, NextResponse } from "next/server"
-import { Pool } from "pg"
-
-const pool = new Pool({
-  host: 'localhost',
-  port: 5432,
-  database: 'medusa-my-medusa-store',
-  user: 'postgres',
-  password: '12345678',
-})
+import { pool } from "@lib/db"
 
 export async function GET(request: NextRequest) {
   const searchParams = request.nextUrl.searchParams
